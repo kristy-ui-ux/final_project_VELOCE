@@ -1,0 +1,172 @@
+:root {
+    --darkBrown: #613B0F;
+    --blackButton: #0F0F0F;
+    --white: #ffffff;
+    --lightBrown: #CD9D65;
+    --black: #000000;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+}
+h1 {
+    font-family: "Staatliches", sans-serif;
+    font-weight: 400;
+    font-size: 150px;
+    font-style: normal;
+    line-height: 80%;
+    letter-spacing: 1%;
+    padding: 0px;
+    margin: 0px;
+}
+h2 {
+    font-family: "Staatliches", sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    font-style: normal;
+    line-height: 110%;
+    letter-spacing: 0%;
+    padding: 0px;
+    margin: 0px;
+}
+h3 {
+    font-family: "Staatliches", sans-serif;
+    font-weight: 400;
+    font-size: 42px;
+    font-style: normal;
+    line-height: 110%;
+    letter-spacing: 1%;
+    padding: 0px;
+    margin: 0px;
+}
+h4 {
+    font-family: "Staatliches", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    font-style: normal;
+    line-height: 130%;
+    letter-spacing: 1%;
+    padding: 0px;
+    margin: 0px;
+}
+p {
+    font-family: "Staatliches", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 139%;
+    letter-spacing: 1%;
+    padding: 0px;
+    margin: 0px;
+}
+.link {
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 26px;
+    font-style: normal;
+    line-height: 139%;
+    letter-spacing: -2%;
+    text-decoration: none;
+    color:black;
+    padding: 0px;
+    margin: 0px;
+}
+.caption {
+    font-family: "Geist", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 14px;
+    font-style: bold;
+    line-height: 110%;
+    letter-spacing: -5%;
+    padding: 0px;
+    margin: 0px;
+}
+.caption_2 {
+    font-family: "Staatliches", sans-serif;
+    font-weight: 400;
+    font-size: 28.8px;
+    font-style: normal;
+    line-height: 139%;
+    letter-spacing: 1%;
+    padding: 0px;
+    margin: 0px;
+}
+.caption_3 {
+    font-family: "Staatliches", sans-serif;
+    font-weight: 400;
+    font-size: 17.6px;
+    font-style: normal;
+    line-height: 139%;
+    letter-spacing: 1%;
+    padding: 0px;
+    margin: 0px;
+}
+.caption_4 {
+    font-family: "Geist", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 27.5px;
+    font-style: medium;
+    line-height: 110%;
+    letter-spacing: -5%;
+    padding: 0px;
+    margin: 0px;
+}
+.Decorative_border {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.img_full_screen {
+    width: 100%;
+    object-fit: cover;
+}
+.img_font_homepage_product {
+    display: flex;
+    position: relative; 
+}
+.img_homepage_product {
+    object-fit: cover;
+    width: 100%;
+    aspect-ratio: 1 / 1 ;
+}
+div.img_font_homepage_product h3 {
+   color: var(--white);
+   position: absolute;
+   top: 30px;
+   left: 30px;
+}
+.box_font_homepage_product {
+   padding: 30px 60px 0px 0px;
+}
+.padding_bottom_homepage_product {
+    padding-bottom: 30px;
+}
+.light_brown_cocktail {
+    color: var(--darkBrown);
+}
+footer {
+    display: flex;
+    flex-direction: column;
+}
+.box_font_footer {
+    display: flex;
+    flex-direction: row;
+}
+.box_font_left_footer {
+    width: 50%;
+    padding: 30px 0px 120px 30px;
+}
+.box_font_right_footer {
+    width: 50%;
+    padding: 30px 30px 120px 0px;
+}
+#logo_footer_desktop{
+    width: 60%;
+    height: auto;
+}
+footer img, footer p {
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
