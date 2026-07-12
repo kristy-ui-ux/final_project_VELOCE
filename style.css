@@ -5,7 +5,7 @@ nav#nav_home {
     align-items:center;
 }
 img#logo_home_desktop {
-    width: 40%;
+    width: 100%;
     height: auto;
     padding-right: 30px;
 }

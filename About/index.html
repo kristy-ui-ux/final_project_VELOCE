@@ -4,24 +4,118 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
-    <link rel='stylesheet' href="./CSS_global/global.css">
-    <link rel='stylesheet' href='./About/style.css'>
+    <link rel='stylesheet' href="../CSS_global/global.css">
+    <link rel='stylesheet' href='./style.css'>
     <script src='./script.js'></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav>
-        <img src='./Logo/Nav/Véloce-2.svg' alt='VÉLOCE'>
-        <a href='./About/index.html'>About</a>
-        <p>Find Stocklists</p>
-        <a href='./Find_us/index.html'>Contact</a>
+    <nav class="nav_global">
+        <a href="../index.html">
+            <img src='./Logo/Nav/Véloce-2.svg' alt='VÉLOCE' class="logo_nav_global">
+        </a>
+        <div class="button_nav_global">
+            <a href='./index.html' class="link">About</a>
+            <a href='./Find_us/index.html' class="link">Find Stocklists</a>
+            <p class="link">Contact</p>
+        </div>
     </nav>
     <main>
-        <div>
-            <p>About</p>
+        <div id="about_quote">
+            <p class="caption">About</p>
             <h2>Véloce represents a new era of the aperitif, where flavor and functionality converge in a beautifully crafted, alcohol-free beverage.</h2>
         </div>
-        <div>
+        <div id='about_recognition'>
+            <div class='about_recognition_text'>
+                <p class='caption'>Recognition</p>
+                <div>
+                <div class="about_award">
+                    <span class='caption about_year_award'>2025</span>
+                    <h4>Best Botanical Blend</h4>
+                </div>
+                <hr>
+                <div class="about_award">
+                    <span class='caption about_year_award'>2025</span>
+                    <h4>Gold Medal – Bittersweet Category</h4>
+                </div>
+                <hr>
+                <div class="about_award">  
+                    <span class='caption about_year_award'>2024</span>
+                    <h4>Best Sustainable Packaging</h4>
+                </div>
+                <hr>
+                <div class="about_award">
+                    <span class='caption about_year_award'>2024</span>
+                    <h4>Eco-Friendly Brand of the Year</h4>
+                </div>    
+                <hr>
+                <div class="about_award">
+                    <span class='caption about_year_award'>2023</span>
+                    <h4>Editor's Choice – Best Aperitif</h4>
+                </div>
+                <hr>
+                <div class="about_award">
+                    <span class='caption about_year_award'>2023</span>
+                    <h4>Most Elegant Bottle Design</h4>
+                </div>    
+                <hr>
+                <div class="about_award">
+                    <span class='caption about_year_award'>2022</span>
+                    <h4>Best Low & No Alcohol Beverage</h4>
+                </div>
+                <hr>
+                </div>
+            </div>
+            <div class='about_founder'>
+                <img src="./Image/himal-rana-zKTiEhatbxo-unsplash.jpg" alt="Founder_Mike_Vera" class='Founder_Mike_Vera'>
+                <div class='about_text_box_founder'>
+                    <p class='caption_4'>Founder</p>
+                    <h1>Mike Vera</h1>
+                    <img src="./Image/Decorative border.svg" alt="Decorative_border" class="Decorative_border">
+                </div>
+            </div>
+        </div>
+        <div id="about_contact">
+            <img src='./Image/marco-montero-pisani-5qTxX7nicco-unsplash copy.jpg' alt='Large copper tanks are part of the historic Antigua Fábrica Estrella Damm in Barcelona.' class='about_img_contact'>
+            <div class="about_contact_text_box">
+                <div class="about_contact_content">
+                    <p class='caption'>Contact</p>
+                    <div class="about_contact_text_inline">
+                        <h4>Phone</h4>
+                        <h4>415-555-4567</h4>
+                    </div>
+                    <div class="about_contact_text_inline">
+                        <h4>Email</h4>
+                        <h4>hello@figma.com</h4>
+                    </div>
+                    <div class="about_contact_text_inline">
+                        <h4>Social</h4>
+                        <h4>@figma</h4>
+                    </div>
+                </div>
+                <div>
+                <hr style="border-color: var(--white); border: 0.5 solid;">
+                <h1>EST.2005</h1>
+                </div>
     </main>
 </body>
-<footer></footer>
+<footer>
+        <div class="box_font_footer">
+            <div class="box_font_left_footer">
+                <a href='./Find_us/index.html' class="link">Find Stocklists</a> <br>
+                <a href='./index.html' class="link">About</a>
+            </div>
+            <div class="box_font_right_footer">
+                <a href="tel:(646) 555-4567" class="link">(646) 555-4567 </a> <br>
+                <a href="mailto: hello@figma.com" class="link">hello@figma.com</a>
+            </div>
+        </div>
+        <a href="../index.html">
+            <img src="./Logo/Footer/Véloce.svg" alt='VÉLOCE_footer' id="logo_footer_desktop">
+        </a>
+        <p>company name© 2025 All Rights Reserved</p>
+        <img src='./Image/Decorative border black.svg' alt="Decorative_border" class='Decorative_border'>
+    </footer>
 </html>
