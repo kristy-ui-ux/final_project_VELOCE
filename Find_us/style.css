@@ -1,0 +1,40 @@
+#findUs_page {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.findUs_our_stock_lists {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 32px 24px 0px 24px;
+    margin: 0px;
+    position: absolute;
+    top: 120px;
+    right: 200px;
+    bottom: 120px;
+    left: 200px;
+    background-color: var(--white);
+    height: fit-content;
+}
+.find_us_adjust_image {
+    aspect-ratio: 2 / 1;
+}
+.findUs_our_stock_lists_text_box {
+    padding: 0px 64px 0px 64px;
+}
+.findUs_our_stock_lists_content {
+    display: inline-flex;
+    gap: 10px;
+    padding: 20px 0px 40px 0px;
+    text-align: left;
+    width: 100%;
+}
+.findUs_our_stock_lists_inf, .findUs_our_stock_lists_content p {
+    width: 50%;
+}
+.findUs_our_stock_lists_inf {
+    display: flex;
+    flex-direction: column;
+}
+
