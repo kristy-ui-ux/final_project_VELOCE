@@ -36,6 +36,27 @@ div#nav_home_button a, div#nav_home_button p {
     padding: 0px;
     margin: 0px;
 }
+@media screen and (max-width: 800px) {
+    nav#nav_home {
+    display: flex;
+    margin: 30px;
+    flex-direction: column;
+    text-align: center;
+}
+img#logo_home_desktop {
+    padding-right: 0px;
+}
+aside#nav_home_aside {
+    width: 100%;
+}
+nav#nav_home h4 {
+    margin: 0px;
+    padding-bottom: 50px;
+}
+nav#nav_home hr {
+    margin: 0px;
+}
+}
 #homepage_intro {
     display: flex;
     height: 540px;
@@ -48,6 +69,7 @@ div.row_font {
     margin: 0px;
     background-color: var(--lightBrown);
     width: 540px;
+    aspect-ratio: 1 / 1;
 }
 img.image_homepage_right{
     flex: 1;

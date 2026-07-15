@@ -1,3 +1,4 @@
+@media screen and (min-width: 1280px) {
 #findUs_page {
     display: flex;
     flex-direction: column;
@@ -14,7 +15,7 @@
     right: 200px;
     bottom: 120px;
     left: 200px;
-    transform: translate( 0%, 3%);
+    transform: translate( 0%, -4%);
     background-color: var(--white);
     height: fit-content;
 }
@@ -38,4 +39,147 @@
     display: flex;
     flex-direction: column;
 }
+}
 
+@media screen and (min-width: 800px) and (max-width: 1279px) {
+.findUs_our_stock_lists{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 32px 24px 0px 24px;
+    margin: 0px;
+    position: absolute;
+    top: 120px;
+    right: 40px;
+    bottom: 120px;
+    left: 40px;
+    transform: translate( 0%, -4%);
+    background-color: var(--white);
+    height: fit-content;
+}
+.findUs_our_stock_lists_text_box {
+    padding: 0px 64px 0px 64px;
+}
+.findUs_our_stock_lists_content {
+    display: inline-flex;
+    gap: 10px;
+    padding: 20px 0px 40px 0px;
+    text-align: left;
+    width: 100%;
+}
+.findUs_our_stock_lists_inf, .findUs_our_stock_lists_content p {
+    width: 50%;
+}
+.findUs_our_stock_lists_inf {
+    display: flex;
+    flex-direction: column;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.box_font_footer {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+.box_font_left_footer, .box_font_right_footer {
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+}
+footer img, footer p {
+    padding-bottom: 20px;
+    padding-left: 0px;
+}
+}
+@media screen and (min-width: 375px) and (max-width: 799px){
+.nav_global {
+    height: 166px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 30px 20px 30px;
+}
+.logo_nav_global{
+    margin: 0px;
+    padding: 0px;
+}
+.button_nav_global {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0px;
+    text-align: right;
+}
+.space_button_nav_global {
+    padding: 0px;
+}
+.findUs_our_stock_lists{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 32px 24px 0px 24px;
+    margin: 0px;
+    position: absolute;
+    top: 190px;
+    right: 20px;
+    bottom: 120px;
+    left: 20px;
+
+    background-color: var(--white);
+    height: fit-content;
+}
+.find_us_adjust_image {
+    height: 635px;
+}
+.findUs_our_stock_lists_text_box {
+    padding: 0px 64px 0px 64px;
+}
+.findUs_our_stock_lists_content {
+    display: inline-flex;
+    gap: 10px;
+    padding: 20px 0px 40px 0px;
+    text-align: left;
+    width: 100%;
+}
+.findUs_our_stock_lists_inf, .findUs_our_stock_lists_content p {
+    width: 50%;
+}
+.findUs_our_stock_lists_inf {
+    display: flex;
+    flex-direction: column;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.box_font_footer {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.box_font_left_footer, .box_font_right_footer {
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+}
+footer img, footer p {
+    padding-bottom: 20px;
+    padding-left: 0px;
+}
+
+}
