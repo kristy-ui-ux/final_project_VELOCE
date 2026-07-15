@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 :root {
     --darkBrown: #613B0F;
     --blackButton: #0F0F0F;
