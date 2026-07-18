@@ -69,8 +69,8 @@ p {
 .link {
     font-family: "Jaro", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400;
     font-size: 26px;
+    font-weight: 400;
     font-style: normal;
     line-height: 139%;
     letter-spacing: -2%;
@@ -82,7 +82,7 @@ p {
 .caption {
     font-family: "Geist", sans-serif;
     font-optical-sizing: auto;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 700;
     line-height: 110%;
     letter-spacing: -5%;
@@ -120,10 +120,14 @@ p {
     margin: 0px;
 }
 .nav_global {
-    height: 65px;
+    height: fit-content;
     display: flex;
     justify-content: space-between;
     width: 100%;
+    align-items: center;
+}
+.nav_global a {
+   height: fit-content;
 }
 .logo_nav_global{
     padding: 10px 30px 10px 30px;
@@ -133,6 +137,7 @@ p {
     display: flex;
     padding: 10px 30px 10px 30px;
     margin: 0px;
+    height: fit-content;
 }
 .space_button_nav_global {
     padding: 0px 26px 0px 26px;

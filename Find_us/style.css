@@ -15,12 +15,12 @@
     right: 200px;
     bottom: 120px;
     left: 200px;
-    transform: translate( 0%, -4%);
+    transform: translate( 0%, -7.4%);
     background-color: var(--white);
     height: fit-content;
 }
 .find_us_adjust_image {
-    aspect-ratio: 2 / 1;
+    height: 638px;
 }
 .findUs_our_stock_lists_text_box {
     padding: 0px 64px 0px 64px;
@@ -42,7 +42,13 @@
 }
 
 @media screen and (min-width: 800px) and (max-width: 1279px) {
-.findUs_our_stock_lists{
+.link {
+    font-size: 24px;
+}
+.caption {
+    font-size: 14px;
+}
+    .findUs_our_stock_lists{
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -53,9 +59,12 @@
     right: 40px;
     bottom: 120px;
     left: 40px;
-    transform: translate( 0%, -4%);
+    transform: translate( 0%, 3.8%);
     background-color: var(--white);
     height: fit-content;
+}
+.find_us_adjust_image {
+    height: 622px;
 }
 .findUs_our_stock_lists_text_box {
     padding: 0px 64px 0px 64px;
@@ -98,12 +107,14 @@ footer img, footer p {
     padding-left: 0px;
 }
 }
-@media screen and (min-width: 375px) and (max-width: 799px){
+@media screen and (max-width: 799px){
+.caption {
+    font-size: 13px;
+}
+.link {
+    font-size: 16px;
+}
 .nav_global {
-    height: 166px;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
     padding: 20px 30px 20px 30px;
 }
 .logo_nav_global{
@@ -131,7 +142,7 @@ footer img, footer p {
     right: 20px;
     bottom: 120px;
     left: 20px;
-
+    transform: translate( 0%, 9%);
     background-color: var(--white);
     height: fit-content;
 }

@@ -1,4 +1,4 @@
-
+@media screen and (min-width: 1280px) {
 #about_quote {
     background-color: var(--black);
     color: var(--white);
@@ -76,4 +76,296 @@
 .about_contact_text_box h1 {
     padding: 30px 0px 30px 0px;
     text-align: center;
+}
+.about_contact_text_inline a {
+    color: var(--white);
+    text-decoration: none;
+}
+}
+@media screen and (min-width: 800px) and (max-width: 1279px) {
+.link {
+    font-size: 24px;
+}
+.caption {
+    font-size: 14px;
+}
+h2 {
+    font-size: 50px;
+}
+h4 {
+    font-size: 24px;
+}
+h1 {
+    font-size: 130px;
+}
+#about_quote {
+    background-color: var(--black);
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 30px 100px 30px;
+    gap: 40px;
+}
+#about_recognition {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.about_recognition_text {
+    padding: 40px 30px 40px 30px;
+    gap: 40px;
+    width: 100%;
+    background-color: var(--lightBrown);
+    display: flex;
+    flex-direction: column;
+    height: 640px;
+}
+.about_founder {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: 640px;
+}
+.Founder_Mike_Vera {
+    object-fit: cover;
+    height: 640px;
+}
+.about_text_box_founder {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding: 16px;
+    background-color: rgb( 0 0 0 / 80%);
+    color: var(--white);
+    border-radius: 16px;
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+    left: 16px;
+    text-align: center;
+    align-items: center;
+}
+.about_text_box_founder p {
+    border: 1px solid var(--white);
+    border-radius: 100%;
+    padding: 7px 27px 7px 27px;
+    width: fit-content;
+}
+.about_text_box_founder img {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+#about_contact { 
+    display: flex;
+    flex-direction: column;
+}
+.about_img_contact {
+    object-fit: cover;
+    height: 640px;
+    width: 100%;
+}
+.about_contact_text_box {
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--black);
+    color: var(--white);
+    height: 800px;
+}
+.about_contact_content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.about_contact_text_box h1 {
+    padding: 30px 0px 30px 0px;
+    text-align: left;
+}
+.about_contact_text_inline a {
+    color: var(--white);
+    text-decoration: none;
+}
+.about_contact_year {
+    width: fit-content;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.box_font_footer {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+.box_font_left_footer, .box_font_right_footer {
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+}
+footer img, footer p {
+    padding-bottom: 20px;
+    padding-left: 0px;
+}
+}
+@media screen and (max-width: 799px){
+.caption {
+    font-size: 13px;
+}
+.link {
+    font-size: 16px;
+}
+h2 {
+    font-size: 40px;
+}
+h4 {
+    font-size: 22px;
+}
+h1 {
+    font-size: 100px;
+}
+.nav_global {
+    padding: 20px 30px 20px 30px;
+}
+.logo_nav_global{
+    margin: 0px;
+    padding: 0px;
+}
+.button_nav_global {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0px;
+    text-align: right;
+}
+.space_button_nav_global {
+    padding: 0px;
+}
+#about_quote {
+    background-color: var(--black);
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 30px 100px 30px;
+    gap: 40px;
+}
+#about_recognition {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.about_recognition_text {
+    padding: 40px 30px 40px 30px;
+    gap: 40px;
+    width: 100%;
+    background-color: var(--lightBrown);
+    display: flex;
+    flex-direction: column;
+    height: 737px;
+    height: fit-content;
+}
+.about_award {
+    padding: 16px 0px 10px 0px;
+    gap: 30px;
+    display: inline-block;
+}
+.about_founder {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+}
+.Founder_Mike_Vera {
+    object-fit: cover;
+    height: 640px;
+}
+.about_text_box_founder {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding: 16px;
+    background-color: rgb( 0 0 0 / 80%);
+    color: var(--white);
+    border-radius: 16px;
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+    left: 16px;
+    text-align: center;
+    align-items: center;
+}
+.about_text_box_founder p {
+    border: 1px solid var(--white);
+    border-radius: 100%;
+    padding: 7px 27px 7px 27px;
+    width: fit-content;
+}
+.about_text_box_founder img {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+#about_contact { 
+    display: flex;
+    flex-direction: column;
+}
+.about_img_contact {
+    object-fit: cover;
+    height: 640px;
+    width: 100%;
+}
+.about_contact_text_box {
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--black);
+    color: var(--white);
+    height: 642px;
+}
+.about_contact_content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.about_contact_text_box h1 {
+    padding: 30px 0px 30px 0px;
+    text-align: left;
+}
+.about_contact_text_inline a {
+    color: var(--white);
+    text-decoration: none;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.box_font_footer {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+.box_font_left_footer, .box_font_right_footer {
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+}
+footer img, footer p {
+    padding-bottom: 20px;
+    padding-left: 0px;
+}
 }
