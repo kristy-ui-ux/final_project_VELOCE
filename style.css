@@ -1,3 +1,4 @@
+@media screen and (min-width: 1280px) {
 nav#nav_home {
     display: flex;
     margin: 30px;
@@ -5,16 +6,20 @@ nav#nav_home {
     align-items:center;
 }
 img#logo_home_desktop {
-    width: 100%;
     height: auto;
     padding-right: 30px;
 }
+#logo_home_ipad {
+    display: none;
+}
+#logo_home_phone{
+    display: none;
+}
 aside#nav_home_aside {
-    width: 40%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    flex: 1;
     margin: 0px;
     padding-left: 30px;
 }
@@ -36,27 +41,6 @@ div#nav_home_button a, div#nav_home_button p {
     padding: 0px;
     margin: 0px;
 }
-@media screen and (max-width: 800px) {
-    nav#nav_home {
-    display: flex;
-    margin: 30px;
-    flex-direction: column;
-    text-align: center;
-}
-img#logo_home_desktop {
-    padding-right: 0px;
-}
-aside#nav_home_aside {
-    width: 100%;
-}
-nav#nav_home h4 {
-    margin: 0px;
-    padding-bottom: 50px;
-}
-nav#nav_home hr {
-    margin: 0px;
-}
-}
 #homepage_intro {
     display: flex;
     height: 540px;
@@ -70,14 +54,11 @@ div.row_font {
     background-color: var(--lightBrown);
     width: 540px;
     aspect-ratio: 1 / 1;
+    gap: 60px;
 }
 img.image_homepage_right{
     flex: 1;
     object-fit: cover;
-}
-.box_homepage_left {
-    padding-bottom: 60px;
-    margin: 0px;
 }
 .button_dark_color {
     width: 158.8px;
@@ -98,7 +79,7 @@ button.button_dark_color:hover {
     margin: 0px;
 }
 h2.box_homepage_abtUs {
-    padding-bottom: 60px;
+    padding-bottom: 50px;
 }
 .button_light_color {
     width: 149.8px;
@@ -136,6 +117,7 @@ h1, div.box_homepage_introWine h4 {
     grid-template-columns: 1fr 1fr;
     gap: 60px 20px;
     padding: 30px;
+    padding-bottom: 60px;
 }
     
 .homepage_product {
@@ -145,7 +127,6 @@ h1, div.box_homepage_introWine h4 {
 .cocktail {
     background-color: var(--lightBrown);
     padding: 30px;
-    margin-top: 30px;
     text-align: left;
 }
 .black_cocktail {
@@ -163,6 +144,377 @@ div#homepage_quote img {
     height: 640px;
     aspect-ratio: 1 / 1 ;
     object-fit: cover;
+}
+}
+@media screen and (min-width: 800px) and (max-width: 1279px) {
+.link {
+    font-size: 24px;
+}
+h3 {
+    font-size: 38px;
+}
+h2 {
+    font-size: 50px;
+}
+h4 {
+    font-size: 24px;
+}
+h1 {
+    font-size: 130px;
+}
+nav#nav_home {
+    display: flex;
+    padding: 30px;
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 70px;
+}
+img#logo_home_desktop {
+    display: none;
+}
+#logo_home_ipad {
+    width: 100%;
+}
+#logo_home_phone{
+    display: none;
+}
+aside#nav_home_aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0px;
+}
+nav#nav_home h4 {
+    margin: 0px;
+    padding-top: 20px;
+}
+nav#nav_home hr {
+    width: 100%;
+    margin: 60px 0px 0px 0px;
+}
+div#nav_home_button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 8px 0px 8px 0px;
+}
+div#nav_home_button a, div#nav_home_button p {
+    padding: 0px;
+    margin: 0px;
+}
+#homepage_intro {
+    display: flex;
+    height: 540px;
+}
+div.row_font {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin: 0px;
+    gap: 60px;
+    background-color: var(--lightBrown);
+}
+img.image_homepage_right{
+    flex: 1;
+    object-fit: cover;
+}
+.button_dark_color {
+    width: 158.8px;
+    height: 52.2px;
+    border-radius: 50%;
+    border: 0px;
+    padding: 7.8px 26px 7.8px 26px;
+    background-color: var(--blackButton);
+    color: var(--lightBrown);
+}
+button.button_dark_color:hover {
+    border: 1px solid var(--black);
+    background-color: var(--lightBrown);
+    color: var(--blackButton);
+}
+#homepage_abtUs {
+    padding: 30px 30px 100px 30px;
+    margin: 0px;
+}
+h2.box_homepage_abtUs {
+    padding-bottom: 50px;
+}
+.button_light_color {
+    width: 149.8px;
+    height: 52.2px;
+    border-radius: 50%;
+    border: 1px solid var(--black);
+    padding: 7.8px 26px 7.8px 26px;
+    background-color: var(--white);
+    color: var(--blackButton);
+}
+button.button_light_color:hover {
+    border: 0px;
+    background-color: var(--blackButton);
+    color: var(--white);
+}
+#container_homepage_introWine {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.img_full_screen {
+    height: 800px;
+}
+.box_homepage_introWine {
+    position: absolute;
+    bottom: 80px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 505px;
+}
+h1, div.box_homepage_introWine h4 {
+    color: var(--white);
+    text-align: center;
+}
+#homepage_product_grid {
+    margin: 0px;
+    display: grid;
+    gap: 60px;
+    padding: 30px;
+    padding-bottom: 60px;
+}
+.homepage_product {
+    display: flex;
+    flex-direction: column;
+}
+.cocktail {
+    background-color: var(--lightBrown);
+    padding: 30px;
+    text-align: left;
+}
+.black_cocktail {
+    color: var(--black);
+}
+#homepage_quote {
+    display: flex;
+    flex-direction: column;
+}
+div#homepage_quote h3 {
+    width: 100%;
+    padding: 30px;
+    padding-bottom: 150px;
+}
+div#homepage_quote img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1 ;
+    object-fit: cover;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.box_font_footer {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.box_font_left_footer, .box_font_right_footer {
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+}
+footer img, footer p {
+    padding-bottom: 20px;
+    padding-left: 0px;
+}
+}
+@media screen and (max-width: 799px) {
+.link {
+    font-size: 16px;
+}
+h3 {
+    font-size: 32px;
+}
+h2 {
+    font-size: 40px;
+}
+h4 {
+    font-size: 22px;
+}
+h1 {
+    font-size: 100px;
+}
+p {
+    font-size: 18px;
+}
+#nav_home {
+    display: flex;
+    padding: 20px 30px 30px 30px; 
+    justify-content: space-between;
+}
+img#logo_home_desktop {
+    display: none;
+}
+#logo_home_ipad {
+    display: none;
+}
+#logo_home_phone{
+    width: 100%;
+}
+#nav_home_aside h4, #nav_home_aside hr {
+    display: none;
+}
+#nav_home_button {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0px;
+}
+#homepage_intro {
+    display: flex;
+    flex-direction: column-reverse;
+}
+div.row_font {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 60px;
+    margin: 0px;
+    background-color: var(--lightBrown);
+}
+img.image_homepage_right{
+    height: 536px;
+    object-fit: cover;
+}
+.button_dark_color {
+    width: 158.8px;
+    height: 52.2px;
+    border-radius: 50%;
+    border: 0px;
+    padding: 7.8px 26px 7.8px 26px;
+    background-color: var(--blackButton);
+    color: var(--lightBrown);
+}
+button.button_dark_color:hover {
+    border: 1px solid var(--black);
+    background-color: var(--lightBrown);
+    color: var(--blackButton);
+}
+#homepage_abtUs {
+    padding: 30px 30px 100px 30px;
+    margin: 0px;
+}
+h2.box_homepage_abtUs {
+    padding-bottom: 50px;
+}
+.button_light_color {
+    width: 149.8px;
+    height: 52.2px;
+    border-radius: 50%;
+    border: 1px solid var(--black);
+    padding: 7.8px 26px 7.8px 26px;
+    background-color: var(--white);
+    color: var(--blackButton);
+}
+button.button_light_color:hover {
+    border: 0px;
+    background-color: var(--blackButton);
+    color: var(--white);
+}
+#container_homepage_introWine {
+    display: flex;
+    position: relative;
+}
+.img_full_screen {
+    height: 800px;
+}
+.box_homepage_introWine {
+    position: absolute;
+    padding: 80px 44px 80px 44px;
+    justify-content: space-between;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+h1, div.box_homepage_introWine h4 {
+    color: var(--white);
+    text-align: center;
+}
+div.box_homepage_introWine h1 {
+    word-break: break-all;
+}
+#homepage_product_grid {
+    margin: 0px;
+    display: grid;
+    gap: 20px;
+    padding: 10px;
+    padding-bottom: 60px;
+}
+.homepage_product {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+.cocktail {
+    background-color: var(--lightBrown);
+    padding: 30px;
+    text-align: left;
+    word-break: break-all;
+}
+.black_cocktail {
+    color: var(--black);
+}
+#homepage_quote {
+    display: flex;
+    flex-direction: column;
+}
+div#homepage_quote h3 {
+    width: 100%;
+    padding: 30px;
+}
+div#homepage_quote img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1 ;
+    object-fit: cover;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.box_font_footer {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.box_font_left_footer, .box_font_right_footer {
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+}
+footer img, footer p {
+    padding-bottom: 20px;
+    padding-left: 0px;
+}
 }
 
 
